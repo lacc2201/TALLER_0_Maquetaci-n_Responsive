@@ -59,10 +59,6 @@ nav{
     margin-right: 0.5rem;
 }
 
-.logo img{
-    height: 3rem;
-}
-
 #features{
     background: url(../img/recursos\ maquetacion/index/bg-features.png);
     color: white;
@@ -100,4 +96,21 @@ nav{
 }
 .feature-black{
     background-color: rgba(0,0,0,0.59);
+}
+.logo{
+    background-color: var(--negro2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    }
+
+.logo img{
+    width: 40%;
+    max-width: 200px;
+}
+
+.logo i{
+    color: var(--blanco);
+    font-size: 2rem;
 }
