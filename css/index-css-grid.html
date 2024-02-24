@@ -2,32 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/estilos-css-grid.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilos-css-grid.css">
+    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRID</title>
 </head>
 <body>
+   <style>
+    .body {
+        height: 100%;
+        min-height: 100%;
+    }
+   </style>
     <div id="container-grid">
-        <nav>
-        Aquí la barra de navegación
+         <nav>
+        <div class="logo">
+        <img src="../img/Hotelia horizontal blanco.svg">
+        <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="menu">
+        <a href="../index.html" class="item">Inicio</a>
+        <a href="ubicanos.html" class="item">Ubicanos</a>
+        <a href="opiniones.html" class="item">Opiniones</a>
+        <hr class="menu-hr" noshade="">
+        <a href="#" class="item">
+        <button class="navbar-button">
+        <i class="fa-solid fa-user"></i> Iniciar Sesión
+        </button>
+        </a>
+        </div>
         </nav>
+
         <section id="banner">
-        Aquí el banner
+            <div class="wrap-texto">
+                  <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. </p>
+                </div>
         </section>
-        <section id="descripcion">
-        Aquí la descripción
-        </section>
+        <section>
+                <div class="bottom-section">
+                    <div class="bottom-text">
+                        <!-- Texto que desees mostrar en la parte inferior izquierda -->
+                        <p>Estamos ubicados en el barrio La Cabrera al norte de Bogotá, en un contexto de 
+                <br>lujo donde interactúan los negocios, el ocio y el descanso, gracias a su 
+                <br>estratégica ubicación rodeada de bancos, restaurantes de alta cocina, centros 
+                <br>comerciales, almacenes de lujo y emblemáticos parques para aprovechar la 
+                <br>naturaleza entre la ciudad caminay y hacer un poco de deporte al aire libre están
+                <br> el parque del Virrey y El Parque de la 93. Además de nuestro exclusivo diseño,
+                <br> ponemos a tu disposición una oferta gastronómica tan sofisticada como 
+                <br>saludable a base de productos locales, cargados de lo mejor de la tradición 
+                <br>colombiana.</p>
+                    </div>
+                    <div class="logo2">
+                        <img src="../img/Hotelia negro vertical.svg" alt="Logo">
+                    </div>
+                </div></section>
         <section id="features">
-        Aquí el feature
+                <h2 class="features-title">Razones por las que disfrutarás quedarte con nosotros</h2>
+                <div class="features-description">
+                <div class="feature feature-blue">
+                <i class="fa-solid fa-bell-concierge"></i>
+                <p>Lorem ipsum dolor</p>
+                </div>
+                <div class="feature feature-black">
+                <i class="fa-solid fa-bed"></i>
+                <p>Lorem ipsum dolor</p>
+                </div>
+                <div class="feature feature-blue">
+                <i class="fa-solid fa-wifi"></i>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="feature feature-black">
+                <i class="fa-solid fa-dumbbell"></i>
+                <p>Lorem ipsum dolor</p>
+            </div>
         </section>
         <section id="ubicacion">
-        Aquí la ubicación
+           <div class="ubi"> 
+            <h2>Ubícanos</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.964441888817!2d-74.07785362621209!3d4.600391895374272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a7147877c9%3A0x378b95e9cbda0740!2sCra.%208%20%2312a-42%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1708726934556!5m2!1ses!2sco" width="900" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="address">
+                <p>AVENIDA CARRERA 8, #12A-42, BOGOTA DC, COLOMBIA</p>
+                <p>+57 601 4567899</p>
+              </div>
         </section>
+
         <section id="opinion">
-        Aquí la opinión
+        <div class="user-reviews">
+    <h2>Nuestros usuarios dicen...</h2>
+    <div class="user-review">
+      <span class="user-name">Diego Rodriguez</span>
+      <span class="user-rating">★★★★</span>
+      <span class="user-comment">Lorem ipsum dolor sit amet, consectet adipiscing elit. Elit quis enim ultricies ullamcorper. Nunc aenean auctor vel diam dictum.</span>
+    </div>
+    <div class="user-review">
+      <span class="user-name">Diana García</span>
+      <span class="user-rating">★★★★★</span>
+      <span class="user-comment">Lorem ipsum dolor sit amet, consectet adipiscing elit. Elit quis enim ultricies ullamcorper. Nunc aenean auctor vel diam dictum.</span>
+    </div>
+    <div class="user-review">
+      <span class="user-name">Diego Rodriguez</span>
+      <span class="user-rating">★★★★</span>
+      <span class="user-comment">Lorem ipsum dolor sit amet, consectet adipiscing elit. Elit quis enim ultricies ullamcorper. Nunc aenean auctor vel diam dictum.</span>
+    </div>
+  </div>
         </section>
         <footer>
-            Aqui el footer
+        
         </footer>
     </div>
     
