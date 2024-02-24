@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro-css.css">
+    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+  <title>Registro</title>
+</head>
+<body>
+    
+  <div class="registration-container">
+    <div class="logo">
+        <img src="img/Hotelia horizontal negro.svg">
+        </div>
+        <br>
+    <form class="registration-form">
+      <div class="form-group">
+        <label for="document-type">Tipo de documento</label>
+        <select id="document-type">
+          <option selected value="0">Escoja una opción</option>
+          <option value="1">Cedúla de ciudadania</option>
+          <option value="2">Tarjeta de identidad</option>
+          <option value="2">Cedúla extranjera</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="names">Nombres</label>
+        <input type="text" id="names">
+      </div>
+      <div class="form-group">
+        <label for="FeNacimien">Fecha nacimiento</label>
+        <input type="date" id="FeNacimien">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="country">País de origen</label>
+        <input type="text" id="country">
+        </div>
+        <div class="form-group">
+            <label for="document-number">Número de documento</label>
+        <input type="text" id="document-number" >
+        </div>
+          <div class="form-group">
+            <label for="last-names" >Apellidos</label>
+            <input type="text" id="last-names" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="gender" >Género</label><p>
+            <label for="gender-male" class="form-radio">O Hombre</label>
+            <input type="radio" id="gender-male" name="gender" value="male" class="form-radio-input">
+            <label for="gender-female" class="form-radio">O Mujer</label>
+            <input type="radio" id="gender-female" name="gender" value="female" class="form-radio-input">
+            <label for="gender-other" class="form-radio">O Otro</label>
+            <input type="radio" id="gender-other" name="gender" value="other" class="form-radio-input">
+          </div>
+          <div class="form-group">
+            <label for="contact-phone" >Teléfono de contacto</label>
+            <input type="tel" id="contact-phone" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="photo" >Foto</label>
+            <input type="file" id="photo" class="form-file">
+          </div>
+          <div class="form-group">
+            <label for="confirm-password" >Confirmar contraseña</label>
+            <input type="password" id="confirm-password" class="form-input">
+          </div>
+          <div class="form-group form-checkbox">
+            <input type="checkbox" id="terms-and-conditions" class="form-checkbox-input">
+            <label for="terms-and-conditions" class="form-checkbox-label">Acepto Terminos y Condiciones</label>
+          </div>
+          <button type="submit" class="form-button">Ingresar</button>

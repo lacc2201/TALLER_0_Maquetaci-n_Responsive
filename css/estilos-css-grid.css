@@ -146,8 +146,8 @@ nav a:hover {
 
 /*TEXTO*/
 #bottom-section {
-    display: flex;
-    justify-content: end;
+    display: grid;
+    justify-content: ce;
     align-items: end;
     padding: 20px;
 }
@@ -158,11 +158,12 @@ nav a:hover {
 }
 
 .logo2 img{
-    display: block;
+    display: grid;
     font-size: 16px;
     height: 100px;
     text-align: right;
     width: 100px;
+    align-items: end;
 }
 
 
@@ -225,26 +226,31 @@ nav a:hover {
 /*OPINIONES*/
 #opinion {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     color: #ffffff;
     background-image: url(../img/opinion/vector-comentarios.png);
-    
+    display: flex;
   }
-  .user-reviews {
+.user-reviews{
+    text-align: center;
+    display: flex;
+
+}
+.user-reviews1 {
     text-align: center;
     padding: 0.5rem;
     font-size: 1.5em;
-    width: 25%;
-    min-width: 180px;
-    max-width: 230px;
-    margin: 0.8rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-  }
+}
+.user-reviews2 {
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.5em;
+}
+.user-reviews3 {
+            text-align: center;
+            padding: 0.5rem;
+            font-size: 1.5em;
+}
+
   .user-reviews h2 {
     text-align: center;
     padding: 0.5rem;
@@ -267,4 +273,47 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+
+
+  
+  /*FOOTER*/
+  #footer{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #292828;
+  }
+  .contact-container {
+    margin: 2em auto;
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 1em;
+    background-color: #f9f9f9;
+  }
+  .contact-header {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .contact-title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  .contact-subtitle {
+    font-size: 0.9em;
+    color: #666;
+  }
+  .contact-info {
+    margin-bottom: 2em;
+    text-align: center;
+  }
+  .contact-address {
+    margin-bottom: 1em;
+  }
+  .contact-phone {
+    margin-bottom: 1em;
+  }
+  .contact-privacy-policy {
+    font-size: 0.8em;
+    color: #666;
+    text-align: center;
   }

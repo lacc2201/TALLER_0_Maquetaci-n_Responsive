@@ -1,0 +1,77 @@
+*{
+    margin: auto;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.;
+    color: #333;
+    background: url(../img/index/slide1.jpg);
+  }
+  .logo {
+    display: flex;
+  }
+  .registration-container {
+    margin: 2em auto;
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 1em;
+    background-color: rgba(233, 233, 233, 0.596);
+  }
+  .registration-header {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .registration-title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  .registration-subtitle {
+    font-size: 0.9em;
+    color: #666;
+  }
+  .registration-form {
+    margin-bottom: 2em;
+  }
+  .form-group {
+    margin-bottom: 1em;
+  }
+  .form-label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-right: 1em;
+    vertical-align: top;
+  }
+  .form-input {
+    width: calc(100% - 210px);
+  }
+  .form-select {
+    width: calc(100% - 210px);
+  }
+  .form-textarea {
+    width: calc(100% - 210px);
+    height: 10em;
+  }
+  .form-file {
+    width: calc(100% - 210px);
+  }
+  .form-checkbox {
+    margin-bottom: 1em;
+  }
+  .form-button {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  .form-button:hover {
+    background-color: #45a049;
+  }
